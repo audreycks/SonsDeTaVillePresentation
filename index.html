@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>Sons De Ta Ville</section>
+
+        <section>
+          <h3>Page de connexion/inscription</h3>
+          <p>
+            Cette page permet de se connecter ou de créer un compte afin de
+            pouvoir utiliser l'app
+          </p>
+		  <div class="row">
+			<div class="column">
+			  <img src="dist/theme/img/SignInPage.jpg" width="33%">
+			</div>
+			<div class="column">
+				<img src="dist/theme/img/SignUpPage.jpg" width="33%">
+			</div>
+        </section>
+
+		<section>
+			<h3>Enregistrement et publication du son</h3>
+			<p>
+			  Vous entendez un son qui vous plait, qui vous fait rire? Enregistrez-le, choissiez la catégorie de votre son et publiez-là pour la partager avec la communauté.
+			</p>
+			<div class="row">
+			  <div class="column">
+				<img src="dist/theme/img/SignInPage.jpg" width="33%">
+			  </div>
+			  <div class="column">
+				  <img src="dist/theme/img/SignUpPage.jpg" width="33%">
+			  </div>
+		  </section>
+  
+
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
