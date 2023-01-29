@@ -1,6 +1,18 @@
 /*
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
+
+  .reveal p {
+    text-align: left;
+    font-size: 0.75em;
+  }
+  .reveal ul {
+    display: block;
+  }
+  .reveal ol {
+    display: block;
+  }
+
 .row {
   display: flex;
 }
